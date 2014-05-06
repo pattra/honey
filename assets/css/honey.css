@@ -58,13 +58,11 @@ b {
 }
 
 #screenshot1 {
-	background-image:url('../images/screenshot1.png');
-	background-repeat: no-repeat;
-	position: absolute;
+	width: 180px;
+	height: 320px;
 }
 
 #screenshot2 {
-	background-image:url('../images/screenshot2.png');
-	background-repeat: no-repeat;
-	position: absolute;
+	width: 180px;
+	height: 320px;
 }
