@@ -56,3 +56,15 @@ b {
 	left: 50%;
 	margin-left: -275px;
 }
+
+#screenshot1 {
+	background-image:url('../images/screenshot1.png');
+	background-repeat: no-repeat;
+	position: absolute;
+}
+
+#screenshot2 {
+	background-image:url('../images/screenshot2.png');
+	background-repeat: no-repeat;
+	position: absolute;
+}
