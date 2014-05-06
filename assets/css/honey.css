@@ -3,9 +3,18 @@
 	src: url('../fonts/Blackout-Midnight.ttf');
 }
 
+a {
+	color: #CC6600;
+	text-decoration: none;
+}
+
+a:hover {
+	font-style: italic;
+}
+
 body {
 	background-color: #fdf1c2;
-	font-family: 'Oxygen', 'Calibri', 'Verdana', sans-serif;
+	font-family: 'Raleway', 'Calibri', 'Verdana', sans-serif;
 	font-size: 11pt;
 	weight: 300;
 
@@ -30,8 +39,11 @@ b {
 }
 
 #main {
-	width: 960px;
+	width: 680px;
 	margin: 0 auto;
+	margin-bottom: 50px;
+	position: relative;
+	top: 75px
 }
 
 #header {
@@ -65,4 +77,11 @@ b {
 #screenshot2 {
 	width: 180px;
 	height: 320px;
+}
+
+table {
+	padding: 5px;
+	border-spacing: 10px;
+	border-collapse: separate;
+	margin-top: -10px;
 }
